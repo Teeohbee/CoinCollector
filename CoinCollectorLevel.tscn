@@ -17,3 +17,7 @@ texture = ExtResource("1_32emf")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
 position = Vector2(-0.5, 15)
 shape = SubResource("RectangleShape2D_c0u0y")
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2(-0.5, 15)
+zoom = Vector2(1.5, 1.5)
